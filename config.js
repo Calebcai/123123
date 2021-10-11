@@ -4,7 +4,7 @@ module.exports = {
     fromDisplaySubText: '早安❤️～今天又是元气满满的一天呢！', // 收件箱展示的次级标题
     user: '876057433@qq.com', // 发送者邮箱
     pass: 'cpstsfidgitfbbbd', // 发送者邮箱MTP协议密码
-    to: '691540026@qq.com', // 发送到谁，填邮箱
+    to: '3299004979@qq.com', // 发送到谁，填邮箱
     weatherKey: '7f28981709374cf592715dc8b707082c', // 和风天气key
     location: '101090213',  // 和风天气-成都武侯区的id
     type: '1,3,9', // 和风天气-生活指数type
