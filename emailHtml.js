@@ -10,10 +10,10 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-        <div>
+        <div style="background: url('https://img1.baidu.com/it/u=381513492,1228719936&fm=26&fmt=auto');background-repeat: no-repeat;background-size:100% auto">
           <!-- 天数 -->
-          <div>
-            <p>今天是在一起的第${lovingDays}天！</p>
+          <div style="color:snow">
+            <p style="font-family: Arial, Helvetica, sans-serif;">今天是和汝汝在一起的第${lovingDays}天，今天又双更爱你一点了呢❤️，美好的一天要有个好心情哦～</p>
           </div>
           <!-- 图片 -->
           <div>
@@ -25,14 +25,17 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           </div>
           <!-- 每日一句#到时候换成经文 -->
           <div>
-            <p style="font-size: 14px; text-indent: 2em; font-style: italic;">
-              ${word}
+            <p style="color: #5c5ce9; font-size: 14px; text-indent: 2em; font-style: italic;">
+              每日文案（到时候会换成经文哦～）：${word}
             </p>
           </div>
           <!-- 天气 -->
           <div>
             <p>
-              <b>今日气温:</b>
+              <b style="color:#416ded">记得随时增减衣物👗哦~</b>
+              <br>
+              <br>
+              <b style="color:#7894e5">保定市今日的气温☁️</b>
               <span>${weatherDataDaily[0].tempMin}°C - ${weatherDataDaily[0].tempMax}°C</span>
             </p>
             <ul>
@@ -49,6 +52,9 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
                 ${daily[0].text}
               </li>
             </ul>
+          </div>
+          <div style="text-align:right">
+              <p style="color:#a1a1a1;font-size:12px;">by:爱你的蔡先森</p>
           </div>
         </div>
       </body>
