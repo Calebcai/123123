@@ -9,7 +9,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body>
+      <body style="margin:0;padding:0;">
         <div style="background: url('https://img1.baidu.com/it/u=381513492,1228719936&fm=26&fmt=auto');background-repeat: no-repeat;background-size:100% auto">
           <!-- 天数 -->
           <div style="color:snow">
@@ -26,8 +26,9 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           <!-- 每日一句#到时候换成经文 -->
           <div>
             <p style="color: #5c5ce9; font-size: 14px; text-indent: 2em; font-style: italic;">
-              每日文案（到时候会换成经文哦～）：${word}
+              每日经文（可以背下来哦～每天背一个📖，这些都是我精心挑选的呢！)
             </p>
+            <p style="font-weight:800; font-size: 15px; text-indent: 2em;">${word}</p>
           </div>
           <!-- 天气 -->
           <div>
