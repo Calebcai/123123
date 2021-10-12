@@ -1,4 +1,4 @@
-function fn(weatherData, lifeData, word, imgurl, dayNum, lovingDays) {
+function fn(weatherData, lifeData, word, imgurl, lovingDays) {
     const { daily: weatherDataDaily } = weatherData;
     const { daily } = lifeData;
   
@@ -10,10 +10,10 @@ function fn(weatherData, lifeData, word, imgurl, dayNum, lovingDays) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body style="margin:0;padding:0;">
-        <div style="background: url('https://img1.baidu.com/it/u=381513492,1228719936&fm=26&fmt=auto');background-repeat: no-repeat;background-size:100% auto">
+        <div style="background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fd-paper.i4.cn%2Fmax%2F2017%2F03%2F15%2F14%2F1489558688746_388542.jpg&refer=http%3A%2F%2Fd-paper.i4.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636615025&t=48b17c616cb2ac8833e2f4eb4fb46464');background-repeat: no-repeat;background-size:100% 100%">
           <!-- 天数 -->
           <div style="color:snow">
-            <p style="font-family: Arial, Helvetica, sans-serif;">今天是和汝汝在一起的第${lovingDays}天，今天又双更爱你一点了呢❤️，美好的一天要有个好心情哦～</p>
+            <p style="font-family: Arial, Helvetica, sans-serif;">和汝汝在一起的第${lovingDays}天,新的一天要从心得力哦～</p>
           </div>
           <!-- 图片 -->
           <div>
@@ -53,7 +53,7 @@ function fn(weatherData, lifeData, word, imgurl, dayNum, lovingDays) {
                 ${daily[0].text}
               </li>
               <li style="margin-bottom: 10px">
-                <p>今日灵修链接：https://wx1.ebible.app/v2/articles/zh-cn/6/${dayNum}</p>
+                <p>今日灵修链接：https://wx1.ebible.app/v2/articles/zh-cn/6/${lovingDays}</p>
                 <p style="color:#a1a1a1;font-size:15px;">有时间记得灵修哦～</p>
                 <p style="color:#a1a1a1;font-size:15px;">有时间记得更新日记哦～</p>
               </li>
