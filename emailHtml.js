@@ -53,7 +53,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
                 ${daily[0].text}
               </li>
               <li style="margin-bottom: 10px">
-                今日灵修链接：'https://wx1.ebible.app/v2/articles/zh-cn/6/2521'
+                今日灵修链接：'https://wx1.ebible.app/v2/articles/zh-cn/6/2522'
               </li>
             </ul>
           </div>
