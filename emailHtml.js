@@ -1,4 +1,4 @@
-function fn(weatherData, lifeData, word, imgurl, lovingDays) {
+function fn(weatherData, lifeData, word, imgurl, dayNum, lovingDays) {
     const { daily: weatherDataDaily } = weatherData;
     const { daily } = lifeData;
   
@@ -53,10 +53,13 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
                 ${daily[0].text}
               </li>
               <li style="margin-bottom: 10px">
-                今日灵修链接：'https://wx1.ebible.app/v2/articles/zh-cn/6/2522'
+                <p>今日灵修链接：https://wx1.ebible.app/v2/articles/zh-cn/6/${dayNum}</p>
+                <p style="color:#a1a1a1;font-size:15px;">有时间记得灵修哦～</p>
+                <p style="color:#a1a1a1;font-size:15px;">有时间记得更新日记哦～</p>
               </li>
             </ul>
           </div>
+          <p style="color:#a1a1a1;font-size:15px;">温馨提示：邮件为蔡先森专门为汝汝定制版制作的提醒程序，每日准时5点20发出，如果汝汝不喜欢这个提醒服务，可以回复取消则可以取消订阅哦～</p>
           <div style="text-align:right">
               <p style="color:#a1a1a1;font-size:12px;">by:爱你的蔡先森</p>
           </div>
