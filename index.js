@@ -64,11 +64,9 @@ async function init() {
       startDay,
       'days'
     );
-    let contNum = 2520
-    let dayNum = contNum+(lovingDays-104)
     
     // 用邮件模版生成字符串
-    const htmlStr = emailHtml(weatherData, lifeData, bible, imgurl, lovingDays, dayNum);
+    const htmlStr = emailHtml(weatherData, lifeData, bible, imgurl, lovingDays);
 
     // 发送邮件;
     sendEmail({
