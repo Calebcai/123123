@@ -64,10 +64,11 @@ async function init() {
       startDay,
       'days'
     );
-    // const daily = 'https://wx1.ebible.app/v2/articles/zh-cn/6/2520'
+    let contNum = 2520
+    let dayNum = contNum+(lovingDays-104)
     
     // 用邮件模版生成字符串
-    const htmlStr = emailHtml(weatherData, lifeData, bible, imgurl, lovingDays);
+    const htmlStr = emailHtml(weatherData, lifeData, bible, imgurl, lovingDays, dayNum);
 
     // 发送邮件;
     sendEmail({
