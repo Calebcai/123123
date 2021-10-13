@@ -10,10 +10,10 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body style="margin:0;padding:0;">
-        <div style="background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fd-paper.i4.cn%2Fmax%2F2017%2F03%2F15%2F14%2F1489558688746_388542.jpg&refer=http%3A%2F%2Fd-paper.i4.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636615025&t=48b17c616cb2ac8833e2f4eb4fb46464');background-repeat: no-repeat;background-size:100% 100%">
+        <div style="background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F13941556144%2F1000&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636687496&t=2f7d377a44bc6a9e5cf7b61565c60964');background-repeat: no-repeat;background-size:100% 100%">
           <!-- 天数 -->
           <div style="color:snow">
-            <p style="font-family: Arial, Helvetica, sans-serif;">和汝汝在一起的第${lovingDays}天,新的一天要从心得力哦～</p>
+            <p style="font-family: Arial, Helvetica, sans-serif;">今天是我们在一起的第${lovingDays}天,美好的一天要从一个好心情开始哦～</p>
           </div>
           <!-- 图片 -->
           <div>
@@ -26,7 +26,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           <!-- 每日一句#到时候换成经文 -->
           <div>
             <p style="color: #5c5ce9; font-size: 14px; text-indent: 2em; font-style: italic;">
-              每日经文（可以背下来哦～每天背一个📖，这些都是我精心挑选的呢！)
+              每日经文（可以背下来哦～每天背一个📖冲冲冲)
             </p>
             <p style="font-weight:800; font-size: 15px; text-indent: 2em;">${word}</p>
           </div>
