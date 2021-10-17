@@ -10,7 +10,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body style="margin:0;padding:0;">
-        <div style="background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F13941556144%2F1000&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636687496&t=2f7d377a44bc6a9e5cf7b61565c60964');background-repeat: no-repeat;background-size:100% 100%">
+        <div style="background: url('background-repeat: no-repeat;background-size:100% 100%">
           <!-- 天数 -->
           <div style="color:snow">
             <p style="font-family: Arial, Helvetica, sans-serif;">今天是我们在一起的第${lovingDays}天,美好的一天要从一个好心情开始哦～</p>
@@ -59,7 +59,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
               </li>
             </ul>
           </div>
-          <p style="color:#a1a1a1;font-size:15px;">温馨提示：邮件为蔡先森专门为汝汝定制版制作的提醒程序，每日准时5点20发出，如果汝汝不喜欢这个提醒服务，可以回复取消则可以取消订阅哦～</p>
+          <p style="color:#a1a1a1;font-size:15px;">还有许多功能等后续有时间会逐步完善的哦～</p>
           <div style="text-align:right">
               <p style="color:#a1a1a1;font-size:12px;">by:爱你的蔡先森</p>
           </div>
