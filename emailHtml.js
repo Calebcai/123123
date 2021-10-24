@@ -12,8 +12,8 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
       <body style="margin:0;padding:0;">
         <div style="background: url('background-repeat: no-repeat;background-size:100% 100%">
           <!-- 天数 -->
-          <div style="color:snow">
-            <p style="font-family: Arial, Helvetica, sans-serif;">今天是我们在一起的第${lovingDays}天,美好的一天要从一个好心情开始哦～</p>
+          <div>
+            <p style="font-family: Arial, Helvetica, sans-serif;">今天是我们在一起的第${lovingDays}天,好想好想你，你要注意增减衣服，一定要照顾好自己哦~</p>
           </div>
           <!-- 图片 -->
           <div>
@@ -66,7 +66,6 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         </div>
       </body>
     </html>
-    `;
   }
   
   module.exports = fn;
