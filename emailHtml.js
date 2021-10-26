@@ -10,10 +10,10 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body style="margin:0;padding:0;">
-        <div style="background: url('background-repeat: no-repeat;background-size:100% 100%">
+        <div>
           <!-- 天数 -->
-          <div>
-            <p style="font-family: Arial, Helvetica, sans-serif;">今天是我们在一起的第${lovingDays}天,好想好想你，你要注意增减衣服，一定要照顾好自己哦~</p>
+          <div style="color:snow">
+            <p style="font-family: Arial, Helvetica, sans-serif;">和汝汝在一起的第${lovingDays}天,每一天都充满甜蜜，月底了要注意身体哦～</p>
           </div>
           <!-- 图片 -->
           <div>
@@ -26,7 +26,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           <!-- 每日一句#到时候换成经文 -->
           <div>
             <p style="color: #5c5ce9; font-size: 14px; text-indent: 2em; font-style: italic;">
-              每日经文（可以背下来哦～每天背一个📖冲冲冲)
+              每日经文（可以背下来哦～每天背一个📖，这些都是我精心挑选的呢！)
             </p>
             <p style="font-weight:800; font-size: 15px; text-indent: 2em;">${word}</p>
           </div>
@@ -54,18 +54,18 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
               </li>
               <li style="margin-bottom: 10px">
                 <p>今日灵修链接：https://wx1.ebible.app/v2/articles/zh-cn/6/${lovingDays}</p>
-                <p style="color:#a1a1a1;font-size:15px;">有时间记得灵修哦～</p>
-                <p style="color:#a1a1a1;font-size:15px;">有时间记得更新日记哦～</p>
+                <p style="color:#a1a1a1;font-size:15px;">有时间记得灵修哦～这个是根据我们在一起的天数递增的哦！</p>
               </li>
             </ul>
           </div>
-          <p style="color:#a1a1a1;font-size:15px;">还有许多功能等后续有时间会逐步完善的哦～</p>
+          <p style="color:#a1a1a1;font-size:15px;">前几天提醒服务出现了些问题，太忙了今天才修复现在恢复正常啦！</p>
           <div style="text-align:right">
               <p style="color:#a1a1a1;font-size:12px;">by:爱你的蔡先森</p>
           </div>
         </div>
       </body>
     </html>
+    `;
   }
   
   module.exports = fn;
