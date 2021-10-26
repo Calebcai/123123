@@ -12,7 +12,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
       <body style="margin:0;padding:0;">
         <div>
           <!-- 天数 -->
-          <div style="color:snow">
+          <div>
             <p style="font-family: Arial, Helvetica, sans-serif;">和汝汝在一起的第${lovingDays}天,每一天都充满甜蜜，月底了要注意身体哦～</p>
           </div>
           <!-- 图片 -->
