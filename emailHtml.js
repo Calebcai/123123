@@ -13,7 +13,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <div>
           <!-- 天数 -->
           <div>
-            <p style="font-family: Arial, Helvetica, sans-serif;">和汝汝在一起的第${lovingDays}天,每一天都充满甜蜜，月底了要注意身体哦～</p>
+            <p style="font-family: Arial, Helvetica, sans-serif;">今天是在一起的第${lovingDays}天,新的一天也要充满活力哦</p>
           </div>
           <!-- 图片 -->
           <div>
@@ -26,7 +26,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           <!-- 每日一句#到时候换成经文 -->
           <div>
             <p style="color: #5c5ce9; font-size: 14px; text-indent: 2em; font-style: italic;">
-              每日经文（可以背下来哦～每天背一个📖，这些都是我精心挑选的呢！)
+              每日经文（应该都背完了吧你，这几个都是重复的，等我这周更新一波新的经文）
             </p>
             <p style="font-weight:800; font-size: 15px; text-indent: 2em;">${word}</p>
           </div>
@@ -54,11 +54,11 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
               </li>
               <li style="margin-bottom: 10px">
                 <p>今日灵修链接：https://wx1.ebible.app/v2/articles/zh-cn/6/${lovingDays}</p>
-                <p style="color:#a1a1a1;font-size:15px;">有时间记得灵修哦～这个是根据我们在一起的天数递增的哦！</p>
+                <p style="color:#a1a1a1;font-size:15px;">有时间记得灵修哦～我也会看的，你也看我们看一样的一起灵修哦</p>
               </li>
             </ul>
           </div>
-          <p style="color:#a1a1a1;font-size:15px;">前几天提醒服务出现了些问题，太忙了今天才修复现在恢复正常啦！</p>
+          <p style="color:#a1a1a1;font-size:15px;">这个月的小惊喜马上就要送达啦，注意查收哦～ 天冷了要注意保暖啊</p>
           <div style="text-align:right">
               <p style="color:#a1a1a1;font-size:12px;">by:爱你的蔡先森</p>
           </div>
