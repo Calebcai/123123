@@ -13,7 +13,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <div>
           <!-- 天数 -->
           <div>
-            <p style="font-family: Arial, Helvetica, sans-serif;">今天是在一起的第${lovingDays}天,新的一天也要充满活力哦</p>
+            <p style="font-family: Arial, Helvetica, sans-serif;">在一起的第${lovingDays}天，今天的公开课要加油哦～，愿天父赐下智慧和赏赐的灵给你</p>
           </div>
           <!-- 图片 -->
           <div>
@@ -58,7 +58,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
               </li>
             </ul>
           </div>
-          <p style="color:#a1a1a1;font-size:15px;">这个月的小惊喜马上就要送达啦，注意查收哦～ 天冷了要注意保暖啊</p>
+          <p style="color:#a1a1a1;font-size:15px;">今天的公开课要加油哦～ 为你祷告</p>
           <div style="text-align:right">
               <p style="color:#a1a1a1;font-size:12px;">by:爱你的蔡先森</p>
           </div>
