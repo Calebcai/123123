@@ -13,7 +13,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <div>
           <!-- 天数 -->
           <div>
-            <p style="font-family: Arial, Helvetica, sans-serif;">今天是在一起的第${lovingDays}天啦，愿神和人喜悦你的心以及智慧和身量一起增长哦～</p>
+            <p style="font-family: Arial, Helvetica, sans-serif;">时间好快！在一起${lovingDays}天啦，愿神和人喜悦你的心以及智慧和身量一起增长哦～</p>
           </div>
           <!-- 图片 -->
           <div>
