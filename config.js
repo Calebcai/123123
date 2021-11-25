@@ -1,7 +1,7 @@
 // 配置信息
 module.exports = {
     fromDisplayText: '来自蔡先森的每日提醒⏰', // 收件箱展示的来件人名字
-    fromDisplaySubText: '早安❤️～今天又是元气满满的一天呢！', // 收件箱展示的次级标题
+    fromDisplaySubText: '早安安，宝贝今天不要emo哦，只要平安喜乐', // 收件箱展示的次级标题
     user: '876057433@qq.com', // 发送者邮箱
     pass: 'cpstsfidgitfbbbd', // 发送者邮箱MTP协议密码
     to: '3299004979@qq.com', // 发送到谁，填邮箱
