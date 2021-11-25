@@ -13,7 +13,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <div>
           <!-- 天数 -->
           <div>
-            <p style="font-family: Arial, Helvetica, sans-serif;">在一起的第${lovingDays}天，今天的公开课要加油哦～，愿天父赐下智慧和赏赐的灵给你</p>
+            <p style="font-family: Arial, Helvetica, sans-serif;">今天是在一起的第${lovingDays}天啦，愿神和人喜悦你的心以及智慧和身量一起增长哦～</p>
           </div>
           <!-- 图片 -->
           <div>
@@ -26,14 +26,14 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           <!-- 每日一句#到时候换成经文 -->
           <div>
             <p style="color: #5c5ce9; font-size: 14px; text-indent: 2em; font-style: italic;">
-              每日经文（应该都背完了吧你，这几个都是重复的，等我这周更新一波新的经文）
+              每日经文
             </p>
             <p style="font-weight:800; font-size: 15px; text-indent: 2em;">${word}</p>
           </div>
           <!-- 天气 -->
           <div>
             <p>
-              <b style="color:#416ded">记得随时增减衣物👗哦~</b>
+              <b style="color:#416ded">天冷了注意保暖呀~</b>
               <br>
               <br>
               <b style="color:#7894e5">保定市今日的气温☁️</b>
@@ -58,7 +58,8 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
               </li>
             </ul>
           </div>
-          <p style="color:#a1a1a1;font-size:15px;">今天的公开课要加油哦～ 为你祷告</p>
+          <p style="color:#a1a1a1;font-size:15px;">我今天为你祝福，愿耶和华赐福给你，愿你所行路径充满祝福，平安与喜乐</p>
+          <p style="color:#a1a1a1;font-size:15px;">白日的太阳必不伤你，夜晚的月亮必不害你，你出你入他必保护你</p>
           <div style="text-align:right">
               <p style="color:#a1a1a1;font-size:12px;">by:爱你的蔡先森</p>
           </div>
