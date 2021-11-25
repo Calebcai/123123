@@ -54,7 +54,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
               </li>
               <li style="margin-bottom: 10px">
                 <p>今日灵修链接：https://wx1.ebible.app/v2/articles/zh-cn/6/${lovingDays}</p>
-                <p style="color:#a1a1a1;font-size:15px;">有时间记得灵修哦～我也会看的，你也看我们看一样的一起灵修哦</p>
+                <p style="color:#a1a1a1;font-size:15px;">灵修内容，到时候，我在这里弄个在线笔记本我寻思（开发中）</p>
               </li>
             </ul>
           </div>
