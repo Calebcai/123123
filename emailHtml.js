@@ -26,7 +26,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           <!-- 每日一句#到时候换成经文 -->
           <div>
             <p style="color: #5c5ce9; font-size: 14px; text-indent: 2em; font-style: italic;">
-              每日经文
+              更新新经文啦！记得背背哦❤
             </p>
             <p style="font-weight:800; font-size: 15px; text-indent: 2em;">${word}</p>
           </div>
