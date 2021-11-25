@@ -61,7 +61,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           <p style="color:#a1a1a1;font-size:15px;">我今天为你祝福，愿耶和华赐福给你，愿你所行路径充满祝福，平安与喜乐</p>
           <p style="color:#a1a1a1;font-size:15px;">白日的太阳必不伤你，夜晚的月亮必不害你，你出你入他必保护你</p>
           <div style="text-align:right">
-              <p style="color:#a1a1a1;font-size:12px;">by:爱你的蔡先森</p>
+              <p style="color:#a1a1a1;font-size:12px;">for：我超爱你哒，要有不断向前的勇气和信心哦！爱❤️不会失败！ by: 你的boy</p>
           </div>
         </div>
       </body>
